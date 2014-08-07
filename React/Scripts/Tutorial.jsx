@@ -1,5 +1,16 @@
 ﻿/** @jsx React.DOM */
 
+
+var HeadingTitle = React.createClass({
+	render: function() {
+		return (
+			<div className="HeadingTitle">
+				<h1>Heading comes here.</h1>
+			</div>
+		);
+	}
+});
+
 var CommentList = React.createClass({
     render: function() {
         return (
@@ -25,13 +36,18 @@ var CommentBox = React.createClass({
     render: function() {
         return (
           <div className="commentBox">
-            <h1>Comments</h1>
+            <h3>Comments</h3>
             <CommentList />
             <CommentForm />
           </div>
       );
     }
 });
+
+React.renderComponent(
+	<HeadingTitle/>, 
+	document.getElementById('heading')
+);
 
 React.renderComponent(
   <CommentBox />,
