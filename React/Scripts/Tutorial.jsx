@@ -1,7 +1,5 @@
 ﻿/** @jsx React.DOM */
 
-
-
 var CommentList = React.createClass({
     render: function() {
         return (

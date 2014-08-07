@@ -43,3 +43,4 @@ D:\SandBox\HackDay\React\React\bin\ru-ru\MsieJavaScriptEngine.resources.dll
 D:\SandBox\HackDay\React\React\obj\Debug\ReactDemo.csproj.App.config
 D:\SandBox\HackDay\React\React\obj\Debug\ReactDemo.dll
 D:\SandBox\HackDay\React\React\obj\Debug\ReactDemo.pdb
+D:\SandBox\HackDay\React\React\obj\Debug\ReactDemo.csprojResolveAssemblyReference.cache
